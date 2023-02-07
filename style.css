@@ -7,6 +7,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Noto Sans', sans-serif;
+    overflow: hidden;
 }
 
 nav {
@@ -57,7 +58,92 @@ nav {
 
 .senha a {
     text-decoration: none;
-    color: #5379ca;
+    color: #6c8ed8;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.055);
+    width: 165px;
+}
+
+.senha a:hover {
+    color: #5382e7;
+}
+
+.nav-inputs button {
+    padding: 3px 4px;
+    background-color: #2d52a0;
+    border: 1px solid rgba(0, 0, 0, 0.349);
+    color: whitesmoke;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.nav-inputs button:hover {
+    background-color: #25458a;
+    cursor: pointer;
+}
+
+.nav-inputs input {
+    width: 90%;
+}
+
+.nav-inputs label {
+    width: 165px;
+    color: whitesmoke;
+}
+
+.center {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #EAEBF1;
+}
+
+.center-left {
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.center-txt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -300px;
+    height: 300px;
+}
+
+.center-txt h1 {
+    color: rgb(27, 27, 27);
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.icon img {
+    height: 180px;
+    width: 180px;
+    border-radius: 5px;
+}
+
+.icon h2 {
+    color: rgb(27, 27, 27);
+}
+
+.center-right {
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
